@@ -1,5 +1,6 @@
 /**
  * Función de la excepción
+ * @author Noemí
  */
 
 package com.tec.propios.throwexception;

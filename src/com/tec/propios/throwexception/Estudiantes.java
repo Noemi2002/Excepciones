@@ -1,5 +1,6 @@
 /**
  * Verifica si un estudiante está matriculado o no
+ * @author Noemí
  */
 
 package com.tec.propios.throwexception;

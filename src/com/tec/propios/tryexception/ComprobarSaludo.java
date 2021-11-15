@@ -1,5 +1,6 @@
 /**
  * Comprueba si la palabra ingresada en la forma correcta de decir Hola en Uzbeko
+ * @author Noemí
  */
 
 package com.tec.propios.tryexception;
