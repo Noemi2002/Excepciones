@@ -3,9 +3,8 @@
  */
 
 package com.tec.ejemplos.thro;
-import java.util.Scanner;
 
-public class notas {
+public class Numero {
     /**
      * Compara la nota y si el estudiante reprobó, devuelve una excepción,
      * si no, imprime un mensaje diferente.
@@ -13,7 +12,7 @@ public class notas {
      */
     public void notas(int numero){
         if(numero < 1 || numero > 10) { // si la nota cumple con esto, manda un error indicando que se reprobó el curso
-            throw new ArithmeticException("Número no válidos");
+            throw new ArithmeticException("Número no válido");
         }else{
             System.out.println("Número correcto"); // en caso contrario, imprime Curso superado
         }
@@ -28,7 +27,7 @@ public class notas {
         //int num1;
         //System.out.println("Ingrese un número del 1 al 10");
         //num1 = teclado.nextInt();
-        notas s = new notas();
+        Numero s = new Numero();
         s.notas(15);
     }
 }
